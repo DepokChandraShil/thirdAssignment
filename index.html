@@ -256,6 +256,59 @@
     </div>
   </div>
 </section>
+
+
+
+
+<section class="w-full">
+
+<div class="w-full flex max-sm:flex-col justify-center items-center gap-5 max-sm:w-full border border-slate-300 rounded-xl p-8 max-sm:px-3 my-5">
+
+  <div class="w-1/2 text-center max-sm:w-full max-sm:text-left">
+    <h1 class="text-3xl  font-bold px-5 py-2 ">Challenging Part</h1>
+    <p class="text-base px-5 text-slate-500">Use Tailwind Carousel Component to effortlessly navigate through a series of elements or images. This feature-rich component offers customizable controls, indicators, intervals, and options, providing a seamless and interactive browsing experience.</p>
+  </div>
+<div class="w-1/2 max-sm:w-full border border-slate-300 rounded-xl p-8 max-sm:p-3">
+  <div class="carousel w-full">
+    <div id="slide1" class="carousel-item relative w-full ">
+      <img
+        src="./assets/article1.png"
+        class=" w-full" />
+      <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+        <a href="#slide3" class="btn btn-circle">❮</a>
+        <a href="#slide2" class="btn btn-circle">❯</a>
+      </div>
+    </div>
+    <div id="slide2" class="carousel-item relative w-full">
+      <img
+        src="./assets/article2.png"
+        class="w-full" />
+      <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+        <a href="#slide1" class="btn btn-circle">❮</a>
+        <a href="#slide3" class="btn btn-circle">❯</a>
+      </div>
+    </div>
+    <div id="slide3" class="carousel-item relative w-full">
+      <img
+        src="./assets//article3.png"
+        class="w-full" />
+      <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+        <a href="#slide2" class="btn btn-circle">❮</a>
+        <a href="#slide1" class="btn btn-circle">❯</a>
+      </div>
+    </div>
+   
+  </div>
+</div>
+ 
+
+</div>
+
+
+
+</section>
+
+
   </main>
   <footer class=" max-w-screen-2xl container mx-auto xl:px-24 px-4">
     <div class="bg-[url('./assets/bg.jpg')] w-full">
@@ -307,6 +360,7 @@
        </div>
       
     </div>
-  </footer>
+  </div>
+</footer>
 </body>
 </html>
